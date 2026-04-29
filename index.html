@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Jake's Plywood</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f7f7f7;
+  color: #333;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+}
+
+nav h2 {
+  margin: 0;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #c7903c, #8b5a2b);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+/* SECTION */
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* SERVICES */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* SLIDER */
+.slider-container {
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  transition: 0.5s;
+}
+
+.card {
+  min-width: 100%;
+  padding: 20px;
+}
+
+.review-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.stars {
+  color: #f4b400;
+  margin-bottom: 10px;
+}
+
+/* MAP */
+.map {
+  margin-top: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <h2>Jake's Plywood</h2>
+  <div>
+    <a href="#services">Services</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#location">Location</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Premium Wood & Plywood</h1>
+  <p>Serving Glendora, CA with Quality Materials</p>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="service">
+      <h3>Plywood Supply</h3>
+      <p>High-quality plywood for all projects.</p>
+    </div>
+    <div class="service">
+      <h3>Custom Cuts</h3>
+      <p>Precision cutting to match your needs.</p>
+    </div>
+    <div class="service">
+      <h3>Wood Selection</h3>
+      <p>Wide variety of wood types available.</p>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section" id="reviews">
+  <h2>Customer Reviews</h2>
+
+  <div class="slider-container">
+    <div class="slider" id="slider">
+
+
+      <div class="card"><div class="review-box"><h3>Deven Grace</h3><div class="stars">★★★★★</div><p>Best wood and great service. Wouldn’t go anywhere else.</p></div></div>
+      <div class="card"><div class="review-box"><h3>Martin Mercury</h3><div class="stars">★☆☆☆☆</div><p>Jake gave me the wrong type of wood. My house only has young wood and he tried to fit in old wood within my house. He doesn't understand the maturity of wood.</p></div></div>
+      <div class="card"><div class="review-box"><h3>Thomas Sanchez</h3><div class="stars">★★★★★</div><p>Jake has the best Plywood around. After receiving his wood I am no longer able to walk right again. I truly appreciate how he blew my back out. My only issue is that I have a severe rash and infection around my rectal area. If you are close by, stop in and say hi to the best wood giver in Southern California. Also, customer service is top tier. 😇</p></div></div>
+      <div class="card"><div class="review-box"><h3>G-The Legend</h3><div class="stars">★★★★★</div><p>Many other people couldn't fit their wood in my tiny hole, but Jake found interesting ways to make it work. 10/10</p></div></div>
+      <div class="card"><div class="review-box"><h3>Nathan</h3><div class="stars">★★★★★</div><p>Great Experience with jakes wood. Best feeling ever, would come again. met some nice men there, owner was very personable. He had such a variety of wood. Black wood, tan wood, orange wood, all the wood. They always gave you some good wood when you get there. Surely splits you open.</p></div></div>
+
+      <div class="card"><div class="review-box"><h3>Uncle Baljeet</h3><div class="stars">★★★★★</div><p>This was my FAVORITE type of wood, my niece loved it so much that I could hear her enjoying the wood I got her at 2 in the morning! Even with their great selections like hard wood, soft wood, smelly wood, and tiny wood, my favorite was definitely the long wood! Thank you for your wood Jake, will come back for seconds 😉😄🙏!</p></div></div>
+      <div class="card"><div class="review-box"><h3>It's_me_moltoni</h3><div class="stars">★★★★★</div><p>Jake’s Plywood? Yeahhh… that place got me feelin’ some type of way 😳
+Walked in for wood, left questioning my sexuality fr… bro was handling that wood a little too smoothly.
+
+10/10 would get wood from Jake again 🤤</p></div></div>
+      <div class="card"><div class="review-box"><h3>Swisser_Chez</h3><div class="stars">★★★★★</div><p>I had the best fj here, met Misereti and Mamu. Great experience 10/10 would recommend
+</p></div></div>
+      <div class="card"><div class="review-box"><h3>John Jupiter</h3><div class="stars">★★★★★</div><p>Don’t need any nuts and bolts here, just getting screwed. Invest in Jake’s aftercare kit it takes out all the splinters from his big wood. After experiencing Jake’s plywood my hole would never be satisfied again. I don’t know what I’d do without him
+</p></div></div>
+      <div class="card"><div class="review-box"><h3>Luke K</h3><div class="stars">★★★★★</div><p>Student Name
+Professor Name
+Course Name
+11 September 1002
+3, 2, 1
+The grain of Jake’s Plywood offers a remarkably complex flavor profile that is both earthy and deeply sweet. Upon the first bite, the dense fibers release a potent burst of pleasure. The texture is impressively sturdy, providing a satisfying, splinter-free crunch It is a truly unique sensory experience to find such a robust, woody essence for small crevices.</p></div></div>
+
+      <div class="card"><div class="review-box"><h3>Erick Jimenez</h3><div class="stars">★★★★★</div><p>Jake helped me get over my wood adicción mi pene creció 1000 metros im very happy with the result of Jake’s work in collaboration with his worker from quetemala binky. Thanks Jake’s make sure to get the mohogny ball wood</p></div></div>
+      <div class="card"><div class="review-box"><h3>Itzs Me</h3><div class="stars">★★★★★</div><p>Jake’s plywood?!? Should be called Jake’s Pry wood with the way it pried its way inside me.
+</p></div></div>
+      <div class="card"><div class="review-box"><h3>Cam Traficante</h3><div class="stars">★★★★★</div><p>Jake’s wood is suspiciously high quality, Jake is way too confident about it, and the whole place feels awesome</p></div></div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section" id="location">
+  <h2>Our Location</h2>
+
+  <div class="map">
+
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19329.957617253705!2d-117.8599761878382!3d34.133548656549685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c32764a028c209%3A0x8151c7556333b9c5!2sJake&#39;s%20Plywood!5e1!3m2!1sen!2sus!4v1777486579714!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      width="100%" height="350" style="border:0;" allowfullscreen loading="lazy">
+    </iframe>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>📍 408 E Foothill Blvd, Glendora, CA</p>
+  <p>📞 (Soon)</p>
+  <p>📧 (Soon)</p>
+</section>
+
+<footer>
+  <p>© 2026 Jake's Plywood</p>
+</footer>
+
+<script>
+let index = 0;
+const slider = document.getElementById("slider");
+const total = slider.children.length;
+
+setInterval(() => {
+  index = (index + 1) % total;
+  slider.style.transform = `translateX(-${index * 100}%)`;
+}, 4000);
+</script>
+
+</body>
+</html>
